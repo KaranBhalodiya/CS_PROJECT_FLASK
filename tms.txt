@@ -81,8 +81,8 @@ Tables:
 
 
 task:
-first we have selected template then decided the modules, tables, UI formatting according to our modules-{}
+first we have selected template then decided the modules, tables, UI formatting according to our modules-{khushi}
 == signup page, mainly as of now we need encryption (data store in database are encrypted)
-second login(traveller) with api validation...
-third mail based verification using OTP...
-fourth integration with our template...
+second login(traveller) with api validation...{amisha}
+third mail based verification using OTP...{karan}
+fourth integration with our template...-{together}
