@@ -1,0 +1,79 @@
+using python flask
+
+Modules:
+	Admin
+	Traveler
+
+
+Flow:
+	1. creat data tables
+	2. login,singup
+	3. password validation in signup page
+	4. mail bassed otp system for login and singup page (2FA)
+	5. session based login
+	6. admin side instert , update , delete , view
+	7. traveler side view , instert , update , delete
+	8. need mail based otp for viewing some sensitivity data
+
+
+Tables:
+	admin_master
+		a_id	(need pii)
+		name
+		mail	(need pii)
+		pass	(need pii)
+		lvl
+
+	traveler_master
+		t_id	(need pii)
+		name
+		mail	(need pii)
+		number	(need pii)
+		pass	(need pii)
+		age
+
+	tour_master
+		tm_id	(need pii)
+		tourname
+		place
+		map_loc
+		group_size
+		type
+		duration
+		deatials
+		included_with
+		price
+		valid_from
+		valid_till
+		package_details
+
+	photo_master
+		pm_id
+		tm_id
+		date
+		time
+
+	tour_itinerary_master
+		tim_id	(need pii)
+		tm_id	(need pii)
+		day
+		details
+
+	tour_apply_master
+		tam_id	(need pii)
+		tm_id	(need pii)
+		t_id	(need pii)
+		total_adults
+		total_children
+		total_infant
+		date
+		time
+
+	review_master
+		rm_id	(need pii)
+		tm_id	(need pii)
+		t_id	(need pii)
+		stars
+		review
+		date
+		time
